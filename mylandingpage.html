@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandingPage</title>
+
+    <link rel="stylesheet"  href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="landingpage.css">
+
+
+</head>
+<body>
+
+    <!-- //Begining Of Header// -->
+
+    <header>
+        <div class="px-3 py-2 text-bg-primary">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="#" class="nav-link text-secondary">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
+                    Dashboard
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                    Orders
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
+                    Products
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                    Customers
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="px-3 py-2 border-bottom mb-3">
+          <div class="container d-flex flex-wrap justify-content-center">
+            <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-light text-dark me-2">Login</button>
+              <button type="button" class="btn btn-primary">Sign-up</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+
+      <!-- //End of Header// -->
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+      <!-- //Beginning Of Carousel// -->
+
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img src="swampforest.jpg" class="bd-placeholder-img img-fluid" width="100%" height="100%">
+    
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Swamp Forest</h1>
+                <p>This Forest Is Located In Savanah. It Is Very Dangerous And Not Fit For Human To Live.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img src="swampforest.jpg" class="bd-placeholder-img img-fluid" width="100%" height="100%">
+    
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Some representative placeholder content for the second slide of the carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+            <img src="swampforest.jpg" class="bd-placeholder-img img-fluid" width="100%" height="100%">
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>One more for good measure.</h1>
+                <p>Some representative placeholder content for the third slide of this carousel.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- //End Of Carousel// -->
+
+      <!-- //First Logos// -->
+
+
+
+       <div class="container-fluid">
+      <div class="row bg-" >
+        <div class="col-md-4 col-sm-6 col-lg-2">
+          <div class="pt-4">
+            <img src="client-1.png" width="100">
+          </div>
+
+          
+
+
+
+
+        
+
+        </div>
+        <div class="col-md-4 col-sm-6 col-lg-2">
+          <div class="pt-4">
+            <img src="client-2.png" width="100">
+          </div>
+
+          
+
+
+
+
+        
+
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-2">
+          <div class="p-4">
+            <img src="client-3.png" width="100">
+          </div>
+
+          
+
+
+
+
+        
+
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 col-lg-2">
+          <div class="p-4">
+            <img src="client-4.png" width="100">
+          </div>
+
+          
+
+
+
+
+        
+
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-lg-2">
+          <div class="p-4">
+            <img src="client-5.png" width="100">
+          </div>
+
+          
+
+
+
+
+        
+
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 col-lg-2">
+          <div class="p-4">
+            <img src="client-6.png" width="100">
+          </div>
+
+          
+
+
+
+
+        
+
+        </div>
+
+        
+
+        
+
+
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+
+    <!-- //End Of First Logos// -->
+
+
+
+
+    <!-- //About Us// -->
+
+
+
+    <div class="container">
+      <div class="row text-center my-5">
+        <div class="col">
+          <h2 class="fw-bolder">
+            ABOUT US
+          </h2>
+
+
+        </div>
+       
+
+
+
+      </div>
+
+
+
+      <div class="row my-5">
+        <div class="col-md-6 col-sm- col-lg-">
+          <div class="p-3 mt-2">
+            
+                <p>orem ipsum  accusantium inventore neque amet, veritatis nulla, suscipit voluptas odio provident quo dolorum necessitatibus fuga eos non perferendis?</p>
+                <ul class="list-group">
+                  <li class="">An item</li>
+                  <li class="">A second item</li>
+                  <li class="">A third item</li>
+                  
+                </ul>
+
+
+              </div>
+            
+
+        </div>
+   
+
+
+
+            
+             
+
+
+        <div class="col-md-6 col-sm- col-lg-">
+            <div class="p-3 mt-2">
+              <p>Lorem ipsum dolor sit am quod incidunt tenetur ab harum, itaque deserunt, nostrum ullam, sed perspiciatis reiciendis vero sequi. Sequi, odit repellat!</p>
+              <button type="button" class="btn btn-outline-info">Primary</button>
+
+
+
+            </div>  
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- //End of About Us// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- //Begining of Accordion// -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm- col-lg-">
+
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+        <div class="col-md-6 col-sm- col-lg-">
+          <div class="">
+            <img src="why-us.png" class="img-fluid">
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+    <!-- //End Of Accordion// -->
+
+
+
+
+      <!-- //Beginning of progress bar// -->
+    <div class="container">
+      <div class="row">
+         <div class="col-md-6 col-sm- col-lg-">
+          <div class="">
+            <img src="why-us.png" class="img-fluid">
+
+
+
+          </div>
+
+        </div> 
+
+
+
+        <div class="col">
+          <div class="">
+
+            <H2>Lorem ipsum dolor sit amet, consectetur adipisicing</H2>
+
+
+
+
+            <div class="progress mt-5">
+            
+              <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+
+            <div class="progress mb-4">
+              
+              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-4">
+              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-4">
+              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-5">
+              <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+    <!-- //End of Progress Bar// -->
+
+
+
+
+    <!-- //Beginning Of Services// -->
+
+    <div class="container">
+      <div class="row text-center my-5">
+        <div class="col">
+          <h2 class="fw-bolder">
+            SERVICES
+          </h2>
+
+
+        </div>
+       
+
+
+
+      </div>
+
+
+
+      <div class="row">
+        <div class="text-center">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae explicabo in at dolorem possimus, praesentium odio enim autem saepe laborum impedit minus voluptate voluptas, sint, distinctio voluptatem doloribus cupiditate laboriosam.</p>
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="row">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- //End of Services// -->
+
+
+
+
+
+
+    <div class="container mt-5">
+      <div class="col-md-8">
+        <div class="">
+
+        <h3>Call To Action</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde magnam doloremque, accusamus voluptatum natus architecto velit amet repellendus quasi, qui dicta porro totam omnis earum! Vel est corrupti voluptatum tempora!</p>
+
+
+
+        </div>
+
+
+
+
+      </div>
+      
+
+
+      <div class="col-md-4">
+        <button type="button" class="btn btn-primary">Call To Action</button>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+      
+
+
+
+
+
+
+          <!-- //Beginning Of Footer// -->
+
+
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><img src="twitterlogo.png" class="bi" width="24" height="24"></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><img src="iglogo.png" class="bi" width="24" height="24"></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+
+
+      <!-- //End Of Footer// -->
+
+
+
+
+      
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
